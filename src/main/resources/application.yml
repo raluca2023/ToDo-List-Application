@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /todo-app
+
+spring:
+  mustache:
+    suffix: .html
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo-app
+    username: raluca
+    password: raluca
